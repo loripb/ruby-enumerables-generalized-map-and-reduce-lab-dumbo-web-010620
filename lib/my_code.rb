@@ -8,3 +8,13 @@ def map(arr)
   end
   result
 end
+
+def reduce(arr, starting_point=0)
+  result = starting_point
+  i      = 0
+
+  while i < arr.length
+    result = yield( )
+  end
+  result
+end
