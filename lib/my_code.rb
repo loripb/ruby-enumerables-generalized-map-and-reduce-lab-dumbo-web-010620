@@ -1,4 +1,5 @@
 # Your Code Here
 def map(arr)
-  result << yield 
+  result = []
+  result << yield
 end
